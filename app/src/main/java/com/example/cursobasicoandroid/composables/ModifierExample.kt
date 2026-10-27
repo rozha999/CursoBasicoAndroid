@@ -30,14 +30,14 @@ fun ProfileScreen() {
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color(0xFF24A1F5))
+                .background(Color(0xFF759CB6))
                 .padding(vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceAround
         ) {
             Image(
                 modifier = Modifier.size(75.dp),
-                painter = painterResource(R.drawable.image),
+                painter = painterResource(id = com.example.cursobasicoandroid.R.drawable.images),
                 contentDescription = null
             )
             Column(modifier = Modifier) {
@@ -49,4 +49,6 @@ fun ProfileScreen() {
             }
         }
     }
+
 }
+

@@ -16,6 +16,7 @@ import com.example.cursobasicoandroid.composables.ButtonExample
 import com.example.cursobasicoandroid.composables.ImageExample
 import com.example.cursobasicoandroid.composables.ProfileScreen
 import com.example.cursobasicoandroid.composables.TextExample
+import com.example.cursobasicoandroid.composables.TextFieldExample
 import com.example.cursobasicoandroid.ui.theme.CursoBasicoAndroidTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CursoBasicoAndroidTheme {
-                ProfileScreen()
+                TextFieldExample()
 
             }
         }
